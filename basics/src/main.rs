@@ -1,10 +1,11 @@
 mod greet;
 mod users;
+mod exercise1;
 
 fn main() {
     greet::greet();
     users::users();
-
+    exercise1::exercise1();
     let x: i32 = 5;
     let y: f64 = x as f64;
     println!("{}", y);
