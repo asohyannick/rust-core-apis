@@ -1,0 +1,91 @@
+# 🚀 Rust Learning Journey
+
+## 👋 About Me
+
+Hi there! I'm **Asoh Yannick**, a passionate **Java Backend Developer** who loves building scalable and robust systems using **Java** and **Spring Boot**.
+
+💡 With years of experience in backend development, I’ve decided to embark on a new and exciting journey — diving into the world of **Rust** 🦀.
+
+---
+
+## 🌱 Why Rust?
+
+Coming from a **Java / Spring Boot** background, I’m exploring Rust to:
+
+- ⚡ Understand **low-level system programming**
+- 🧠 Improve my knowledge of **memory management**
+- 🚀 Build **high-performance and safe applications**
+- 🔒 Learn about **ownership, borrowing, and lifetimes**
+- 🌍 Expand my backend and systems programming skillset
+
+---
+
+## 📚 What This Repository Covers
+
+This repository documents my journey from **beginner → intermediate → advanced** in Rust:
+
+### 🟢 Basics
+- Variables & data types
+- Ownership & borrowing
+- Control flow
+- Functions & modules
+
+### 🟡 Intermediate Concepts
+- Structs & enums
+- Pattern matching
+- Error handling (`Result`, `Option`)
+- Collections (Vec, HashMap)
+- Traits & generics
+
+### 🔴 Advanced Concepts
+- Lifetimes deep dive
+- Concurrency & multithreading
+- Async programming
+- Smart pointers
+- Unsafe Rust (when necessary)
+- Performance optimization
+
+---
+
+## 🛠️ Tech Mindset
+
+Even though I’m learning Rust, my foundation remains strong in:
+
+- ☕ Java
+- 🌱 Spring Boot
+- 🔐 Spring Security
+- 🗄️ PostgreSQL & Redis
+- 🐳 Docker
+- 🔗 REST APIs & Microservices
+
+Now I’m blending that experience with Rust to explore new possibilities.
+
+---
+
+## 🎯 Goal
+
+> To become a well-rounded developer who can confidently build both high-level backend systems and low-level performant applications.
+
+---
+
+## 📈 Progress Tracking
+
+- [x] Started Rust basics 🦀
+- [ ] Build CLI tools
+- [ ] Develop backend services in Rust
+- [ ] Explore Rust frameworks (Actix, Axum)
+- [ ] Contribute to open source
+
+---
+
+## 🤝 Let's Connect
+
+Feel free to follow my journey, contribute, or share ideas!
+
+---
+
+## ⭐ Final Note
+
+This is more than just a repository — it's a **learning journey**, a **growth mindset**, and a step toward mastering modern software engineering.
+
+🔥 *From Java to Rust — one concept at a time.*
