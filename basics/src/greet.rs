@@ -1,5 +1,7 @@
 
-fn greet() {
-    println("Hello Yannic");
-    println("Hello Yannic");
+pub fn greet() {
+    let name = "John";
+    println!("{}", name);
+    println!("Hello John");
+    println!("Hello Smith");
 }

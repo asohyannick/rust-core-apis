@@ -1,59 +1,41 @@
+mod greet;
+mod users;
+
 fn main() {
-   let first_name = "Alice";  // immutable by default (like Java's final)
-   let last_name = "Smith";  // immutable by default (like Java's final)
-   let age = 42;
-   let pi = 3.14;
+    greet::greet();
+    users::users();
 
-   // To make it mutable, you must say so explicitly
-   let mut counter = 0;
-   counter += 1;
+    let x: i32 = 5;
+    let y: f64 = x as f64;
+    println!("{}", y);
 
-   println!("{} {} {} {} {}", last_name, first_name, age, pi, counter);
+    let user: (&str, u32, bool) = ("Alice", 40, true);
+    /*
+        Compound Types — Tuples & Arrays
+        Tuples — fixed size, mixed types (no direct Java equivalent)
+    */
+    // Access by index
+    println!("Name: {}", user.0);
+    println!("Age: {}", user.1);
 
-   let x = 5;
-   let x = x + 1;  // shadows the previous x
-   let x = x * 2; // shadows again
-   println!("{}", x); // prints 12
+    // Or destructure
+    let (name, age, active) = user;
+    println!("{} is {}, active: {}", name, age, active);
 
-   let input = "42";
-   let input: i32 = input.parse().unwrap();
-   print!("{}", input);
-   /*
-     signed integers
-     i8,
-     i16,
-     i32,
-     i64,
-     i128
+    /*
+      Arrays — fixed size, single type (like Java arrays, but size is part of the type)
+    */
+    let scores: [i32; 5] = [10, 20, 30, 40, 50];
+    let persons: [&str; 5] = ["James", "John", "Peter", "Prince", "Joy"];
 
-     unsigned integers
-     u8,
-     u16,
-     u32,
-     u64,
-     u128
+    // Initialize with same value
+    let _zeros = [0; 10]; // prefixed with _ to suppress unused variable warning
 
-     pointer-sized, used for indexing
+    println!("{:?}", scores);   // debug format required for arrays
+    println!("{:?}", persons);  // debug format required for arrays
 
-     isize,
-     usize
-
-     floating point
-     f32, f64
-
-     bool -> true or false
-     char
-   */
-
-  let new_age = 30;
-  let temperature = 36.6;
-  let is_active = true;
-  let letter = 'R';
-  print!("{my_age} {temp} {is_act} {ltr}", 
-  my_age = new_age, 
-  temp = temperature, 
-  is_act = is_active, 
-  ltr = letter
-)
-
+    const  MAX_CONNECTION: u32 = 100; // These are constants in Rust
+    const APP_NAME: &str = "my-api";
+    println!("{}", MAX_CONNECTION);
+    println!("{}", APP_NAME);
 }
